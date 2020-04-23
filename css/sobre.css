@@ -1,0 +1,79 @@
+
+.interna_sobre{
+
+	background: url("../img/bg-sobre.jpg") no-repeat center;
+}
+
+
+.introducao-interna h1 {
+	font-size: 42px;
+	color: 	#fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+	margin-top: 12px;
+}
+
+
+.introducao-interna h1:after{
+		content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #FFF;
+	margin: 8px auto 10px auto;
+
+}
+
+.introducao-interna p{
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+}
+
+.missao-sobre{
+	padding-top: 60px
+}
+
+.missao-sobre p{
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 1em;
+	padding-right: 50px;
+}
+
+.missao-sobre ul li{
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+	line-height: 30px;
+
+}
+
+.foto-equipe{
+	padding-top: 40px;
+}
+
+.subtitulo-sobre{
+	font-size: 24px;
+	color: 	#000;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: Helvetica, sans-serif;
+	margin-top: 12px;
+	text-align: left;
+
+}
+
+.subtitulo-sobre:after{
+
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #000;
+	margin: 8px 0 20px;
+
+
+}
