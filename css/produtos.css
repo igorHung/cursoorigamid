@@ -1,0 +1,159 @@
+
+.interna_sobre{
+
+	background: url("../img/bg-produtos.jpg") no-repeat center;
+}
+
+
+.introducao-interna h1 {
+	font-size: 42px;
+	color: 	#fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+	margin-top: 12px;
+}
+
+
+.introducao-interna h1:after{
+		content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #FFF;
+	margin: 8px auto 10px auto;
+
+}
+
+.introducao-interna p{
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+}
+
+.missao-sobre{
+	padding-top: 60px
+}
+
+.missao-sobre p{
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 1em;
+	padding-right: 50px;
+}
+
+.missao-sobre ul li{
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+	line-height: 30px;
+
+}
+
+.foto-equipe{
+	padding-top: 40px;
+}
+
+.subtitulo-sobre{
+	font-size: 24px;
+	color: 	#000;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: Helvetica, sans-serif;
+	margin-top: 12px;
+	text-align: left;
+
+}
+
+.subtitulo-sobre:after{
+
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #000;
+	margin: 8px 0 20px;
+
+
+}
+
+
+.produtos-secao{
+	padding-top: 40px;
+
+}
+
+.produtos-secao h2{
+	font-size: 40px;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-weight: bold;
+	position: relative;
+	top: -174px;
+	left: 240px;
+	color: #fff;
+	margin: -20px 0;
+
+}
+
+.produtos-secao h2:before{
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #fff;
+	margin: 0 70px;
+
+
+}
+
+.produtos-secao h2:after{
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #fff;
+	margin: 0 70px;
+ 
+}
+
+.produto-icone{
+	background-color: #000;
+	padding: 70px 23px;
+}
+
+.produtos-info{
+	background-color: #000;
+}
+
+.produtos-info p{
+	color: #fff;
+	font-size: 18px;
+	line-height: 24px;
+	padding: 14px 40px;
+}
+
+.produtos-info ul li{
+	background-color: #FEC63E;
+	font-weight: 18px;
+	font-weight: bold;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	line-height: 20px;
+	float: left;
+	width: 229px;
+	height: 49px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.produtos-info ul li:nth-child(1),.produtos-info ul li:nth-child(2){
+
+	margin-bottom: 2px;
+
+}
+
+.produtos-info ul li:nth-child(even){
+	margin-left: 2px;
+}
