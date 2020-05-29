@@ -10,5 +10,5 @@ pagina de contatos feita, ainda falta transformar responsivo - 14/05
 
 site totalmente responsivo - 28/05
 
-ainda falta colocar uns efeitos legais e tals
+ainda falta colocar uns efeitos legais e tals.
 
