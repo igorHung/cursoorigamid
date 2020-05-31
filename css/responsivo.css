@@ -218,3 +218,21 @@
 
 
 } /* final do responsivo para SMARTPHONES*/
+
+.fade-in{
+	
+	animation: fadeInDown 5s;
+}
+
+
+@keyframes fadeInDown {
+
+	from{
+		opacity: 0;
+	}
+
+	to{
+		opacity: 1;
+	}
+
+}

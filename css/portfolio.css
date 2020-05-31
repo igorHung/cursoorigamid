@@ -4,13 +4,13 @@
 	background: url("../img/bg-portfolio.jpg") no-repeat center;
 }
 
-.quote-externo-clientes{
+.quote_clientes {
 	padding: 60px 0;
 	max-width: 460px;
 	margin: 0 auto;
 }
 
-.quote-externo-clientes p{
+.quote_clientes p {
 	text-align: center;
 	font-family: serif;
 	font-size: 18px;
@@ -20,7 +20,7 @@
 
 }
 
-.quote-externo-clientes cite{
+.quote_clientes cite {
 	font-size: 18px;
 	font-weight: bold;
 	float: right;
