@@ -376,23 +376,23 @@ p{
 
 /* JAVASCRIpt */
 
-[data-slide] {
+.js [data-slide] {
 	position: relative;
   }
-  [data-slide] > * {
+  .js [data-slide] > * {
 	position: absolute;
 	top: 0px;
 	opacity: 0;
   }
 
-  [data-slide] > .active {
+.js [data-slide] > .active {
 	position: relative;
 	opacity: 1;
 	transition: opacity 500ms;
 }
 
 
-[data-slide-nav] {
+.js [data-slide-nav] {
 
 	display: block;
 	text-align: center;
@@ -400,7 +400,7 @@ p{
 
 }
 
-[data-slide-nav] > button {
+.js [data-slide-nav] > button {
 
 	display: inline-block;
 	width: 12px;
@@ -415,6 +415,28 @@ p{
 
 }
 
-[data-slide-nav] > button.active {
+.js [data-slide-nav] > button.active {
 	background: #fec454;
   }
+
+
+.js [data-anime]{
+	opacity: 0;
+}
+
+.js .fadeInDown{
+	transform: translate3d(0,-40px,0);
+}
+.fadeInRight {
+	transform: translate3d(20px,0,0);
+  }
+  .fadeInLeft {
+	transform: translate3d(-20px,0,0);
+  }
+
+.js .anime{
+	opacity: 1;
+	transform: none;
+	transition: opacity 800ms, transform 800ms;
+	
+}

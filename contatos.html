@@ -10,6 +10,7 @@
 		<link rel="stylesheet" href="css/produtos.css">
 		<link rel="stylesheet" href="css/contatos.css">
 		<link rel="stylesheet" href="css/responsivo.css">
+		<script>document.documentElement.classList.add("js");</script>
 	</head>
 	<body>
 
@@ -30,13 +31,13 @@
 		</header>
 
 		<section class="introducao-interna interna_contato">
-			<div class="container">
+			<div data-anime="600" class="container fadeInDown">
 				<h1>Contatos</h1>
 				<p>tire suas dúvidas com a gente</p>
 			</div>
 		</section>
 
-		<section class="contato container">
+		<section data-anime="850" class="contato container fadeInDown">
 			<form id="form_orcamento" class="contato_form grid-8">
 				<label for="nome">Nome</label>
 				<input type="text" id="nome">
@@ -63,11 +64,11 @@
 			</div>
 		</section>
 
-		<section class="container contato_mapa">
+		<section data-anime="850" class="container contato_mapa fadeInDown">
 			<a href="http://google.com" target="_blank" class="grid-16"><img src="img/endereco-bikcraft.jpg" alt="Endereço da Bikcraft"></a>
 		</section>
 
-		<section class="quebra">
+		<section data-anime="850" class="quebra fadeInDown">
 			<blockquote class="quote-externo container">
 				<p>“o verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana.”</p>
 				<cite>WILLIAM MORRIS</cite>
@@ -76,7 +77,7 @@
 
 		<footer>
 			<div class="footer">
-				<div class="container">
+				<div data-anime="850" class="container fadeInDown">
 
 					<div class="grid-8 footer_historia">
 						<h3>Nossa História</h3>
@@ -110,6 +111,12 @@
 				</div>
 			</div>
 		</footer>
+
+<!-- JavaScript -->
+<script src="./js/simple-slide.js"></script>
+<script src="./js/simple-anime.js"></script>
+<script src="./js/script.js"></script>
+<!-- JavaScript -->
 
 	</body>
 </html>

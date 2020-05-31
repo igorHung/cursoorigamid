@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/sobre.css">
 		<link rel="stylesheet" href="css/responsivo.css">
+		<script>document.documentElement.classList.add("js");</script>
 	</head>
 	<body>
 
@@ -32,14 +33,14 @@
 
 			<section class="introducao-interna interna_sobre">
 				<div class="container">
-					<h1>Sobre</h1>
-					<p>Conheça mais a Bikcraft</p>
+					<h1 data-anime="400" class="fadeInDown">Sobre</h1>
+					<p data-anime="400" class="fadeInDown">Conheça mais a Bikcraft</p>
 				</div>
 			</section>
 
 
-			<section class="missao-sobre container">
-				<div class="grid-10">
+			<section class="missao-sobre container" >
+				<div data-anime="800" class="grid-10 fadeInLeft">
 						<h2 class="subtitulo-sobre">Historia,Missao e Visão</h2>
 							<p>é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro.
 							</p>
@@ -49,23 +50,23 @@
 				</div>
 
 				<div class="grid-6">
-					<h2 class="subtitulo-sobre">Valores</h2>
+					<h2 data-anime="800" class="subtitulo-sobre fadeInRight">Valores</h2>
 					<ul>
-						<li>- Qualidade no Processo</li>
-						<li>- Foco no cliente</li>
-						<li>- Diversão</li>
-						<li>- Natureza</li>
+						<li data-anime="900" class="subtitulo-sobre fadeInRight">- Qualidade no Processo</li>
+						<li data-anime="1000" class="subtitulo-sobre fadeInRight">- Foco no cliente</li>
+						<li data-anime="1100" class="subtitulo-sobre fadeInRight">- Diversão</li>
+						<li data-anime="1200" class="subtitulo-sobre fadeInRight">- Natureza</li>
 					</ul>
 				</div>
 
-				<div class="grid-16 foto-equipe">
+				<div data-anime="400" class="grid-16 foto-equipe fadeInDown">
 					<img src="img/equipe-bikcraft.jpg" alt="equipe bikcraft">
 				</div>
 
 			</section>
 
 
-			<section class="qualidade container">
+			<section data-anime="400" class="qualidade container fadeInDown">
 
 					<h2 class="subtitulo">Qualidade</h2>
 
@@ -97,7 +98,7 @@
 
 
 		<section class="quebra">
-			<blockquote class="quote-externo container">
+			<blockquote data-anime="400" class="quote-externo container fadeInDown">
 				<p>“o verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana.”</p>
 				<cite>WILLIAM MORRIS</cite>
 			</blockquote>
@@ -108,7 +109,7 @@
 
 			<footer>
 			<div class="footer">
-				<div class="container">
+				<div data-anime="400" class="container fadeInDown">
 
 					<div class="grid-8 footer_historia">
 						<h3>Nossa História</h3>
@@ -143,6 +144,11 @@
 			</div>
 		</footer>
 
-		
+		<!-- JavaScript -->
+<script src="./js/simple-slide.js"></script>
+<script src="./js/simple-anime.js"></script>
+<script src="./js/script.js"></script>
+<!-- JavaScript -->
+
 	</body>
 </html>
